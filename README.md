@@ -1,3 +1,3 @@
 # ShapeCraft - Figuras Personalizadas
 
-![Logo ShapeCraft](imgs/shapecraft.svg)
+![Logo ShapeCraft](./public/imgs/shapecraft.svg)
