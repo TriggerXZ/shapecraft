@@ -1,17 +1,14 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import HeroLanding from '../components/HeroLanding.astro'
+import Layout from "../layouts/Layout.astro";
+import HeroSection from "../components/HeroSection.astro";
 ---
 
-<Layout title="ShapeCraft - Las mejores figuras personalizadas">
-	<main>
-		<HeroLanding/>
-		<section class="h-screen w-screen text-center relative overflow-hidden font-medium" id="about">
-			<h2>Hola</h2>
-		</section>
+<Layout title="ShapeCraft - Las mejores figuras personalizadas" description="Las mejores figuras personalizadas de tus series y hobbys favoritas en un solo lugar">
+	<main class="snap-y snap-mandatory h-screen w-full overflow-auto">
+		<div class="snap-center">
+			<HeroSection />
+		</div>
 	</main>
 </Layout>
 
-<style>
-	
-</style>
+<style></style>
